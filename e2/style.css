@@ -2,11 +2,12 @@ nav{
   padding:5px
 }
 nav a{
-  color:rgb(240, 23, 23);
+  color:rgb(255, 255, 255);
   margin:0 10px 0 10px;
   display:inline-block;
   width:20%;
   text-align:center;
+  background-color: black;
 }
 
 /* Challenge 7: Make the font for all elements Arial */
@@ -16,7 +17,14 @@ a{text-decoration: none;}
 /* Challenge 9: Change the bottom border of the hyperlinks in the <nav> element to 2px solid black when the visitor hovers over it */
 nav a:hover{border-bottom: 2px black;}
 /* Challenge 10: Change the background color to blue and the text to white for elements with an class of "banner" */
-.banner{background-color: rgb(0, 0, 0); color: rgb(255, 255, 255);}
+.banner{display: flex;}
+.banner{background-color: rgb(0, 0, 0); color: rgb(255, 255, 255); text-align: center;}
 /* Challenge 11: Make the font size bigger and the color of the text to blue for elements with a class of "main" */
-.main{font-size: 24pt; font-style: rgb(255, 255, 255);}
+.main{font-size: 24pt; font-style: rgb(255, 255, 255); background-color: black; color: white;}
 
+/* Image CXT*/
+.imagecontext{background-color: black;}
+.imagecontext{display: flex;}
+.imagecontext{justify-content: left;}
+#region a:hover{box-shadow: 20px;} #amazon{box-shadow: 20px;} #sierra{box-shadow: 20px} #coast{box-shadow: 20px;}
+.geography{color: white; background-color: black; justify-content: right;}
