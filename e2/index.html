@@ -17,7 +17,7 @@
     <style>
       /* Challenge 6: Using internal styling,  change the color of the web page.*/
 body{
-  background-color: rgb(180, 2, 2);
+  background-color: rgb(192, 66, 66);
 }
       /* Further challenges are located in style.css  */
 
@@ -32,36 +32,64 @@ body{
   </head>
   <body>
     <!-- Challenge 1: Create the navigation bar in support of the sitemap associated with the website. -->
-<nav> 
-  <a href="index.html"> home page</a>
-  <a href="html.html"> filler </a>
-  <a href="css.html"> filler</a>
-  <a href="js.html"> filler </a>
+<nav class="container"> 
+  <a href="index.html"> Home Page</a>
+  <a href="html.html"> History </a>
+  <a href="css.html"> Cuisine</a>
+  <a href="js.html"> Economy </a>
 </nav>
     <!-- Challenge 2: Create a banner container with heading of "Web Development".  Give it a class of "banner".-->
 <div class="banner">
-  <img src="Peruflag.webp" style="height: 25;">
+  <img src="imagefolder/Peruflag.webp" style="height: 25;">
   <h1> Peru </h1>
 </div>
+<img src="imagefolder/lima.jpg" height="800px" width="1700px">
 <hr>
     <div class="main">
-      <!-- Challenge 3: Add the image of webicons.png--> <img src="perugeo.jpg" style="height: 250px;">
-       <param class="mapinfo"> 
-            Peru is located in South america borders Ecuador, Colombia, Brazil, Bolivia and Chile. There are 3 distinct regions in the country, the amazon rain forest, the sechura desert by the coast, and the Sierra Peru. 
+      <!-- Challenge 3: Add the image of webicons.png--> <img src="imagefolder/perugeo.jpg" style="height: 250px;">
+       <param> 
+            Peru is located in South america, it borders 5 countries which are Ecuador, Colombia, Brazil, Bolivia and Chile.  the Spanish divided it into three main regions for political rather than geographical reasons:
+             the Coast, adjacent to the Pacific Ocean; the Highlands, located in the Andean mountains; and the Amazon Jungle.
        <param/>
+       <div id="region">  <img src="imagefolder/geo2.jpg" style="height: 100px;" style="width: 100px;">  </div>
        </div>
       <!-- Challenge 4: Using inline styling, resize the above image appropriately -->
       <!-- Challenge 5: Write a paragraph describing web development.  Discuss the purpose of HTML, CSS and JavaScript --><br
+      <br>
       <hr>
-      <div class="imagecontext">
-        <div id="region">  <img src="geo2.jpg" style="height: 150;" style="width: 150;">  </div>
-        <div id="amazon">  <img src="amazonforest.jpeg" style="height: 150;" style="width: 150;"></div>
-        <div id="sierra">  <img src="sierra.jpeg" style="height: 150;" style="width: 150;"></div>
-        <div id="coast"> <img src="coast.jpg" style="height: 150;" style="width: 150;">  </div>
-      </div>
-      <div class="geography">
-          <param> Peru holds the 2nd largest share of the amazon Rainforest with Brazil being the first. </param>
-      </div>
+      <br>
+      <div class="imagecontext container">
+        <div id="amazon">  <img src="imagefolder/amazonforest.jpeg" style="height: 100px;" style="width: 100px;"></div>
+        <param class="geography"> Peru holds the 2nd largest share of the Amazon Rainforest with Brazil being the first.
+         Most Peruvian territory is covered by the dense forests on the east side of the Andes mountains, yet only 5% of Peruvians live in this area. more than 60% of Peru's territory is covered by the amazon rain forest
+      . More than any other country even though Peru only holds 11% of the whole amazon rainforest. 782,880.55 km2 (302,271.87 sq mi) (60.91% of Peruvian territory and approximately 11.05% of the entire Amazon jungle).</param>
+      <br> 
+    </div>
+<br>
+<div class="imagecontext container">
+  <div id="sierra">  <img src="imagefolder/sierra.jpeg" style="height: 100px;" style="width: 100px;"></div>
+  <param> the Andean highland region where approximately half of the country's population lived in 1990. It is formed by three ranges of mountains with fertile river valleys, high plains, and deep canyons.
+   It is the only mountainous area in the lower Amazonian jungle. The best-known feature of the range is a pyramid-like mountain called El Cono.
+    On November 8, 2015, the Peruvian government announced it had designated 3.3 million acres of rainforest in the mountain range as a national park
+</param>
+</div>
+<br>
+<div class="imagecontext container">
+    <div id="coast"> <img src="imagefolder/coast.jpg" style="height: 100px;" style="width: 100px;"> </div>
+    <param>  Peru's coastal region, known as "La Costa," is a long, narrow, arid desert strip along the Pacific, punctuated by fertile river valleys (like those for sugar & grapes), home to the capital Lima. 
+    The coastal region of Peru runs from the northern border with Ecuador to the southern border with Chile, encompassing a diverse landscape that includes deserts, fertile valleys, and beaches.
+     This region is primarily arid, making it one of the driest coastal areas in the world. The average temperatures range from 64 to 86 °F (18 to 30 °C), with the northern coast being warmer and more tropical, while the southern coast tends to be cooler and cloudier.  
+  </param>
+</div>
+<div class="video">
+ <iframe id="video1" width="300" height="200" src="https://www.youtube.com/embed/4IEcG7zTTKY?si=aRjZ9qYjnxt2Rg2O" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <iframe id="video2" width="300" height="200" src="https://www.youtube.com/embed/5kXD0oRSlTY?si=1ynZdtclcm8Bq0nk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+      <div id="footer" class="container">
+      @Copyright 2025 by Jean pier C <a href="https://en.wikipedia.org/wiki/Life_zones_of_Peru">  Source</a>
+    </div>
+
+          
       
 
   
